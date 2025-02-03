@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(SlidingWindow)
+
+set(CMAKE_CXX_STANDARD 17)
+include_directories(util)
+add_executable(SlidingWindow main.cpp test_factory.h util/util.h L3_lengthOfLongestSubstring/L3_lengthOfLongestSubstring.cpp L3_lengthOfLongestSubstring/L3_lengthOfLongestSubstring.h L30_findSubstring/L30_findSubstring.cpp L30_findSubstring/L30_findSubstring.h)
