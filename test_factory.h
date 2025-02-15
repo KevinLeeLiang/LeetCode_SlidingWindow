@@ -16,6 +16,9 @@
 #include <memory>
 #include "L3_lengthOfLongestSubstring/L3_lengthOfLongestSubstring.h"
 #include "L30_findSubstring/L30_findSubstring.h"
+#include "L76_minWindow/L76_minWindow.h"
+#include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
+using namespace std;
 class test_factory {
 private:
     void buildSolution(string title) {
@@ -24,6 +27,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L30") {
             std::shared_ptr<L30_findSubstring> tmp= std::make_shared<L30_findSubstring>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L76") {
+            std::shared_ptr<L76_minWindow> tmp= std::make_shared<L76_minWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L187") {
+            std::shared_ptr<L187_findRepeatedDnaSequences> tmp= std::make_shared<L187_findRepeatedDnaSequences>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
