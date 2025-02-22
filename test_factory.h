@@ -18,6 +18,8 @@
 #include "L30_findSubstring/L30_findSubstring.h"
 #include "L76_minWindow/L76_minWindow.h"
 #include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
+#include "L209_minSubArrayLen/L209_minSubArrayLen.h"
+#include "L219_containsNearbyDuplicate/L219_containsNearbyDuplicate.h"
 using namespace std;
 class test_factory {
 private:
@@ -33,6 +35,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L187") {
             std::shared_ptr<L187_findRepeatedDnaSequences> tmp= std::make_shared<L187_findRepeatedDnaSequences>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L209") {
+            std::shared_ptr<L209_minSubArrayLen> tmp= std::make_shared<L209_minSubArrayLen>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L219") {
+            std::shared_ptr<L219_containsNearbyDuplicate> tmp= std::make_shared<L219_containsNearbyDuplicate>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
