@@ -20,6 +20,9 @@
 #include "L187_findRepeatedDnaSequences/L187_findRepeatedDnaSequences.h"
 #include "L209_minSubArrayLen/L209_minSubArrayLen.h"
 #include "L219_containsNearbyDuplicate/L219_containsNearbyDuplicate.h"
+#include "L220_containsNearbyAlmostDuplicate/L220_containsNearbyAlmostDuplicate.h"
+#include "L239_maxSlidingWindow/L239_maxSlidingWindow.h"
+
 using namespace std;
 class test_factory {
 private:
@@ -42,6 +45,14 @@ private:
         } else if (title == "L219") {
             std::shared_ptr<L219_containsNearbyDuplicate> tmp= std::make_shared<L219_containsNearbyDuplicate>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L220") {
+            std::shared_ptr<L220_containsNearbyAlmostDuplicate> tmp= std::make_shared<L220_containsNearbyAlmostDuplicate>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L239") {
+            std::shared_ptr<L239_maxSlidingWindow> tmp= std::make_shared<L239_maxSlidingWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:

@@ -18,3 +18,7 @@ LeetCode滑动窗口算法题的解题仓库
 
 [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window) : [L219_containsNearbyDuplicate](L219_containsNearbyDuplicate)
 
+[220. 存在重复元素 III](https://leetcode.cn/problems/contains-duplicate-iii/description/?envType=problem-list-v2&envId=sliding-window) : [L220_containsNearbyAlmostDuplicate](L220_containsNearbyAlmostDuplicate)
+
+[239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/?envType=problem-list-v2&envId=sliding-window) : [L239_maxSlidingWindow](L239_maxSlidingWindow)
+
