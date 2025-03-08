@@ -22,7 +22,8 @@
 #include "L219_containsNearbyDuplicate/L219_containsNearbyDuplicate.h"
 #include "L220_containsNearbyAlmostDuplicate/L220_containsNearbyAlmostDuplicate.h"
 #include "L239_maxSlidingWindow/L239_maxSlidingWindow.h"
-
+#include "L395_longestSubstring/L395_longestSubstring.h"
+#include "L413_numberOfArithmeticSlices/L413_numberOfArithmeticSlices.h"
 using namespace std;
 class test_factory {
 private:
@@ -51,8 +52,12 @@ private:
         } else if (title == "L239") {
             std::shared_ptr<L239_maxSlidingWindow> tmp= std::make_shared<L239_maxSlidingWindow>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L395") {
+            std::shared_ptr<L395_longestSubstring> tmp= std::make_shared<L395_longestSubstring>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L413") {
+            std::shared_ptr<L413_numberOfArithmeticSlices> tmp= std::make_shared<L413_numberOfArithmeticSlices>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
 public:

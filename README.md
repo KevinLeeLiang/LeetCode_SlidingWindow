@@ -22,3 +22,6 @@ LeetCode滑动窗口算法题的解题仓库
 
 [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/?envType=problem-list-v2&envId=sliding-window) : [L239_maxSlidingWindow](L239_maxSlidingWindow)
 
+[395. 至少有 K 个重复字符的最长子串](https://leetcode.cn/problems/longest-substring-with-at-least-k-repeating-characters/description/?envType=problem-list-v2&envId=sliding-window) : [L395_longestSubstring](L395_longestSubstring)
+
+[413. 等差数列划分](https://leetcode.cn/problems/arithmetic-slices/description/?envType=problem-list-v2&envId=sliding-window) : [L413_numberOfArithmeticSlices](L413_numberOfArithmeticSlices)
