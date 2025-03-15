@@ -24,6 +24,9 @@
 #include "L239_maxSlidingWindow/L239_maxSlidingWindow.h"
 #include "L395_longestSubstring/L395_longestSubstring.h"
 #include "L413_numberOfArithmeticSlices/L413_numberOfArithmeticSlices.h"
+#include "L424_characterReplacement/L424_characterReplacement.h"
+#include "L438_findAnagrams/L438_findAnagrams.h"
+
 using namespace std;
 class test_factory {
 private:
@@ -57,6 +60,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L413") {
             std::shared_ptr<L413_numberOfArithmeticSlices> tmp= std::make_shared<L413_numberOfArithmeticSlices>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L424") {
+            std::shared_ptr<L424_characterReplacement> tmp= std::make_shared<L424_characterReplacement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L438") {
+            std::shared_ptr<L438_findAnagrams> tmp= std::make_shared<L438_findAnagrams>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
