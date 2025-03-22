@@ -26,6 +26,8 @@
 #include "L413_numberOfArithmeticSlices/L413_numberOfArithmeticSlices.h"
 #include "L424_characterReplacement/L424_characterReplacement.h"
 #include "L438_findAnagrams/L438_findAnagrams.h"
+#include "L480_medianSlidingWindow/L480_medianSlidingWindow.h"
+#include "L567_checkInclusion/L567_checkInclusion.h"
 
 using namespace std;
 class test_factory {
@@ -66,6 +68,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L438") {
             std::shared_ptr<L438_findAnagrams> tmp= std::make_shared<L438_findAnagrams>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L480") {
+            std::shared_ptr<L480_medianSlidingWindow> tmp= std::make_shared<L480_medianSlidingWindow>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L567") {
+            std::shared_ptr<L567_checkInclusion> tmp= std::make_shared<L567_checkInclusion>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }

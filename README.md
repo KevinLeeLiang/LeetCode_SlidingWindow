@@ -29,3 +29,7 @@ LeetCode滑动窗口算法题的解题仓库
 [424. 替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement/description/?envType=problem-list-v2&envId=sliding-window) : [L424_characterReplacement](L424_characterReplacement)
 
 [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/?envType=problem-list-v2&envId=sliding-window) : [L438_findAnagrams](L438_findAnagrams)
+
+[480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median/description/?envType=problem-list-v2&envId=sliding-window) : [L480_medianSlidingWindow](L480_medianSlidingWindow)
+
+[567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/description/?envType=problem-list-v2&envId=sliding-window) : [L567_checkInclusion](L567_checkInclusion)
