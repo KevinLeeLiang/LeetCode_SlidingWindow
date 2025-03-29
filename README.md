@@ -33,3 +33,7 @@ LeetCode滑动窗口算法题的解题仓库
 [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median/description/?envType=problem-list-v2&envId=sliding-window) : [L480_medianSlidingWindow](L480_medianSlidingWindow)
 
 [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string/description/?envType=problem-list-v2&envId=sliding-window) : [L567_checkInclusion](L567_checkInclusion)
+
+[594. 最长和谐子序列](https://leetcode.cn/problems/longest-harmonious-subsequence/description/?envType=problem-list-v2&envId=sliding-window) : [L594_findLHS](L594_findLHS)
+
+[632. 最小区间](https://leetcode.cn/problems/smallest-range/description/?envType=problem-list-v2&envId=sliding-window) : [L632_smallestRange](L632_smallestRange)

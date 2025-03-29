@@ -28,6 +28,8 @@
 #include "L438_findAnagrams/L438_findAnagrams.h"
 #include "L480_medianSlidingWindow/L480_medianSlidingWindow.h"
 #include "L567_checkInclusion/L567_checkInclusion.h"
+#include "L594_findLHS/L594_findLHS.h"
+#include "L632_smallestRange/L632_smallestRange.h"
 
 using namespace std;
 class test_factory {
@@ -74,6 +76,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L567") {
             std::shared_ptr<L567_checkInclusion> tmp= std::make_shared<L567_checkInclusion>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L594") {
+            std::shared_ptr<L594_findLHS> tmp= std::make_shared<L594_findLHS>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L632") {
+            std::shared_ptr<L632_smallestRange> tmp= std::make_shared<L632_smallestRange>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
