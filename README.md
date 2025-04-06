@@ -37,3 +37,7 @@ LeetCode滑动窗口算法题的解题仓库
 [594. 最长和谐子序列](https://leetcode.cn/problems/longest-harmonious-subsequence/description/?envType=problem-list-v2&envId=sliding-window) : [L594_findLHS](L594_findLHS)
 
 [632. 最小区间](https://leetcode.cn/problems/smallest-range/description/?envType=problem-list-v2&envId=sliding-window) : [L632_smallestRange](L632_smallestRange)
+
+[643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/description/?envType=problem-list-v2&envId=sliding-window) : [L643_findMaxAverage](L643_findMaxAverage)
+
+[659. 找到K 个最接近的元素](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/?envType=problem-list-v2&envId=sliding-window) : [L659_findClosestElements](L659_findClosestElements)

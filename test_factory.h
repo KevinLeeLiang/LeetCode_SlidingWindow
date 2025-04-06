@@ -30,6 +30,8 @@
 #include "L567_checkInclusion/L567_checkInclusion.h"
 #include "L594_findLHS/L594_findLHS.h"
 #include "L632_smallestRange/L632_smallestRange.h"
+#include "L643_findMaxAverage/L643_findMaxAverage.h"
+#include "L658_findClosestElements/L658_findClosetElement.h"
 
 using namespace std;
 class test_factory {
@@ -83,6 +85,14 @@ private:
         } else if (title == "L632") {
             std::shared_ptr<L632_smallestRange> tmp= std::make_shared<L632_smallestRange>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L643") {
+            std::shared_ptr<L643_findMaxAverage> tmp= std::make_shared<L643_findMaxAverage>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L658") {
+            std::shared_ptr<L658_findClosetElement> tmp= std::make_shared<L658_findClosetElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else {
+            cout << "no solution" << endl;
         }
     }
 public:
