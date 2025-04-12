@@ -41,3 +41,7 @@ LeetCode滑动窗口算法题的解题仓库
 [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i/description/?envType=problem-list-v2&envId=sliding-window) : [L643_findMaxAverage](L643_findMaxAverage)
 
 [659. 找到K 个最接近的元素](https://leetcode.cn/problems/split-array-into-consecutive-subsequences/description/?envType=problem-list-v2&envId=sliding-window) : [L659_findClosestElements](L659_findClosestElements)
+
+[689. 三个无重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays/description/?envType=problem-list-v2&envId=sliding-window) : [L689_maxSumOfThreeSubarrays](L689_maxSumOfThreeSubarrays)
+
+[713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=sliding-window) : [L713_numSubarrayProductLessThanK]](L713_numSubarrayProductLessThanK)

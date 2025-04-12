@@ -32,6 +32,8 @@
 #include "L632_smallestRange/L632_smallestRange.h"
 #include "L643_findMaxAverage/L643_findMaxAverage.h"
 #include "L658_findClosestElements/L658_findClosetElement.h"
+#include "L689_maxSumOfThreeSubarrays/L689_maxSumOfThreeSubarrays.h"
+#include "L713_numSubarrayProductLessThanK/L713_numSubarrayProductLessThanK.h"
 
 using namespace std;
 class test_factory {
@@ -90,6 +92,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L658") {
             std::shared_ptr<L658_findClosetElement> tmp= std::make_shared<L658_findClosetElement>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L689") {
+            std::shared_ptr<L689_maxSumOfThreeSubarrays> tmp= std::make_shared<L689_maxSumOfThreeSubarrays>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L713") {
+            std::shared_ptr<L713_numSubarrayProductLessThanK> tmp= std::make_shared<L713_numSubarrayProductLessThanK>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else {
             cout << "no solution" << endl;
