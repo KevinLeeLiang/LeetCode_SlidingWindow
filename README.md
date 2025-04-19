@@ -45,3 +45,7 @@ LeetCode滑动窗口算法题的解题仓库
 [689. 三个无重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-3-non-overlapping-subarrays/description/?envType=problem-list-v2&envId=sliding-window) : [L689_maxSumOfThreeSubarrays](L689_maxSumOfThreeSubarrays)
 
 [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k/description/?envType=problem-list-v2&envId=sliding-window) : [L713_numSubarrayProductLessThanK]](L713_numSubarrayProductLessThanK)
+
+[718. 最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/description/?envType=problem-list-v2&envId=sliding-window) : [L718_findLength](L718_findLength)
+
+[837. 新21点](https://leetcode.cn/problems/new-21-game/description/?envType=problem-list-v2&envId=sliding-window) : [L837_new21Game](L837_new21Game)
