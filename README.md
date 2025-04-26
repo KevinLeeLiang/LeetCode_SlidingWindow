@@ -49,3 +49,7 @@ LeetCode滑动窗口算法题的解题仓库
 [718. 最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/description/?envType=problem-list-v2&envId=sliding-window) : [L718_findLength](L718_findLength)
 
 [837. 新21点](https://leetcode.cn/problems/new-21-game/description/?envType=problem-list-v2&envId=sliding-window) : [L837_new21Game](L837_new21Game)
+
+[862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/?envType=problem-list-v2&envId=sliding-window) : [L862_shortestSubarray](L862_shortestSubarray)
+
+[904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=sliding-window) : [L904_totalFruit](L904_totalFruit)

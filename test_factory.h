@@ -36,6 +36,8 @@
 #include "L713_numSubarrayProductLessThanK/L713_numSubarrayProductLessThanK.h"
 #include "L718_findLength/L718_findLength.h"
 #include "L837_new21Game/L837_new21Game.h"
+#include "L862_shortestSubarray/L862_shortestSubarray.h"
+#include "L904_totalFruit/L904_totalFruit.h"
 
 using namespace std;
 class test_factory {
@@ -107,8 +109,12 @@ private:
         } else if (title == "L837") {
             std::shared_ptr<L837_new21Game> tmp= std::make_shared<L837_new21Game>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
-        } else {
-            cout << "no solution" << endl;
+        } else if (title == "L862") {
+            std::shared_ptr<L862_shortestSubarray> tmp= std::make_shared<L862_shortestSubarray>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L904") {
+            std::shared_ptr<L904_totalFruit> tmp= std::make_shared<L904_totalFruit>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
 public:
