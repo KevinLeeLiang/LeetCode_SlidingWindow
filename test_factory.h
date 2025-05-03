@@ -38,6 +38,8 @@
 #include "L837_new21Game/L837_new21Game.h"
 #include "L862_shortestSubarray/L862_shortestSubarray.h"
 #include "L904_totalFruit/L904_totalFruit.h"
+#include "L930_numSubarraysWithSum/L930_numSubarraysWithSum.h"
+#include "L978_maxTurbulenceSize/L978_maxTurbulenceSize.h"
 
 using namespace std;
 class test_factory {
@@ -114,6 +116,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L904") {
             std::shared_ptr<L904_totalFruit> tmp= std::make_shared<L904_totalFruit>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L930") {
+            std::shared_ptr<L930_numSubarraysWithSum> tmp= std::make_shared<L930_numSubarraysWithSum>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L978") {
+            std::shared_ptr<L978_maxTurbulenceSize> tmp= std::make_shared<L978_maxTurbulenceSize>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }

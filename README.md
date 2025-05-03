@@ -53,3 +53,7 @@ LeetCode滑动窗口算法题的解题仓库
 [862. 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/description/?envType=problem-list-v2&envId=sliding-window) : [L862_shortestSubarray](L862_shortestSubarray)
 
 [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets/description/?envType=problem-list-v2&envId=sliding-window) : [L904_totalFruit](L904_totalFruit)
+
+[930. 和相同的二元子数组](https://leetcode.cn/problems/binary-subarrays-with-sum/description/?envType=problem-list-v2&envId=sliding-window) : [L930_numSubarraysWithSum](L930_numSubarraysWithSum)
+
+[978. 最长湍流子数组](https://leetcode.cn/problems/longest-turbulent-subarray/description/?envType=problem-list-v2&envId=sliding-window) : [L978_maxTurbulenceSize](L978_maxTurbulenceSize)
