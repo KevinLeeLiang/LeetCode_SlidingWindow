@@ -57,3 +57,7 @@ LeetCode滑动窗口算法题的解题仓库
 [930. 和相同的二元子数组](https://leetcode.cn/problems/binary-subarrays-with-sum/description/?envType=problem-list-v2&envId=sliding-window) : [L930_numSubarraysWithSum](L930_numSubarraysWithSum)
 
 [978. 最长湍流子数组](https://leetcode.cn/problems/longest-turbulent-subarray/description/?envType=problem-list-v2&envId=sliding-window) : [L978_maxTurbulenceSize](L978_maxTurbulenceSize)
+
+[992. K 个不同整数的子数组](https://leetcode.cn/problems/subarrays-with-k-different-integers/description/?envType=problem-list-v2&envId=sliding-window) : [L992_subarraysWithKDistinct](L992_subarraysWithKDistinct)
+
+[995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/description/?envType=problem-list-v2&envId=sliding-window) : [L995_minKBitFlips](L995_minKBitFlips)

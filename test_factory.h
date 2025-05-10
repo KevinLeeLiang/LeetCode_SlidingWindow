@@ -40,6 +40,8 @@
 #include "L904_totalFruit/L904_totalFruit.h"
 #include "L930_numSubarraysWithSum/L930_numSubarraysWithSum.h"
 #include "L978_maxTurbulenceSize/L978_maxTurbulenceSize.h"
+#include "L992_subarraysWithKDistinct/L992_subarraysWithKDistinct.h"
+#include "L995_minKBitFlips/L995_minKBitFlips.h"
 
 using namespace std;
 class test_factory {
@@ -122,6 +124,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L978") {
             std::shared_ptr<L978_maxTurbulenceSize> tmp= std::make_shared<L978_maxTurbulenceSize>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L992") {
+            std::shared_ptr<L992_subarraysWithKDistinct> tmp= std::make_shared<L992_subarraysWithKDistinct>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L995") {
+            std::shared_ptr<L995_minKBitFlips> tmp= std::make_shared<L995_minKBitFlips>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
