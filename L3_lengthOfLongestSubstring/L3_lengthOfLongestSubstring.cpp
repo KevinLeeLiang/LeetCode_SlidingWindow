@@ -14,12 +14,13 @@
 #include "L3_lengthOfLongestSubstring.h"
 int L3_lengthOfLongestSubstring::lengthOfLongestSubstring(string s) {
     unordered_set<char> hash;
-    int left = 0, right = 0, res = 0;
+    int left = 0, right = 0;
+    int res = 0;
     while (right < s.size()) {
         if (hash.find(s[right]) == hash.end()) {
             hash.insert(s[right]);
+            res = max(res, right - left + 1);
             right++;
-            res = max(res, right - left);
         } else {
             hash.erase(s[left]);
             left++;
