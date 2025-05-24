@@ -25,27 +25,28 @@ bool L76_minWindow::check() {
 string L76_minWindow::minWindow(string s, string t) {
     this->ori.clear();
     this->cnt.clear();
-    for (const auto &c : t) {
-        ori[c]++;
+    for (const auto& c : t) {
+        this->ori[c] ++;
     }
     int l = 0, r = -1;
-    int len = INT_MAX, ansL = -1;
-    while (r < int(s.size())) {
-        if (ori.find(s[++r]) != ori.end()) {
-            cnt[s[r]]++;
+    int len = INT_MAX;
+    int ansL = -1;
+    while (r < (int)s.size()) {
+        if (this->ori.find(s[++r]) !=  this->ori.end()) {
+            this->cnt[s[r]]++;
         }
-        while (check() && l <= r) {
+        while (this->check() && l <= r) {
             if (r - l + 1 < len) {
                 len = r - l + 1;
                 ansL = l;
             }
-            if (ori.find(s[l]) != ori.end()) {
-                cnt[s[l]]--;
+            if (this->ori.find(s[l]) != this->ori.end()) {
+                this->cnt[s[l]]--;
             }
             l++;
         }
     }
-    return ansL == -1 ? "" : s.substr(ansL, len);
+    return ansL == -1 ? string() : s.substr(ansL, len);
 }
 void L76_minWindow::test(){
     string s = "ADOBECODEBANC";
