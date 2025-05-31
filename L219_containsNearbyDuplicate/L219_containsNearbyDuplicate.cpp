@@ -14,8 +14,7 @@
 #include "L219_containsNearbyDuplicate.h"
 bool L219_containsNearbyDuplicate::containsNearbyDuplicate(vector<int> &nums, int k) {
     unordered_set<int> s;
-    int length = nums.size();
-    for (int i = 0; i < length; i++) {
+    for (int i = 0; i < nums.size(); ++i) {
         if (i > k) {
             s.erase(nums[i - k - 1]);
         }

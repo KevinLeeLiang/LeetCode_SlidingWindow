@@ -16,9 +16,8 @@
 int L209_minSubArrayLen::minSubArrayLen(int target, vector<int> &nums) {
     int l = 0, r = 0;
     int sum = 0;
-    int ans;
-    ans = nums.size() + 1;
-    while (r < nums.size()) {
+    int ans = INT_MAX;
+    while ( r < nums.size()) {
         sum += nums[r];
         while (sum >= target) {
             ans = min(ans, r - l + 1);
@@ -27,7 +26,7 @@ int L209_minSubArrayLen::minSubArrayLen(int target, vector<int> &nums) {
         }
         r++;
     }
-    return ans > nums.size() ? 0 : ans;
+     return ans == INT_MAX ? 0 : ans;
 }
 
 
