@@ -14,20 +14,21 @@
 #include "L239_maxSlidingWindow.h"
 
 vector<int> L239_maxSlidingWindow::maxSlidingWindow(vector<int> &nums, int k) {
-    int n = nums.size();
-    priority_queue<pair<int, int>> q;
-    for (int i = 0; i < k; ++i) {
-        q.emplace(nums[i], i);
-    }
-    vector<int> ans = {q.top().first};
-    for (int i = k; i < n; ++i) {
-        q.emplace(nums[i], i);
-        while (q.top().second <= i - k) {
-            q.pop();
+    vector<int> res;
+    deque<int> q;
+    for (int i = 0; i < nums.size(); i++) {
+        while (!q.empty() && q.front() < i - k + 1) {
+            q.pop_front();
         }
-        ans.push_back(q.top().first);
+        while (!q.empty() && nums[q.back()] < nums[i]) {
+            q.pop_back();
+        }
+        q.push_back(i);
+        if (i >= k - 1) {
+            res.push_back(nums[q.front()]);
+        }
     }
-    return ans;
+    return res;
 }
 
 void L239_maxSlidingWindow::test() {
