@@ -61,3 +61,7 @@ LeetCode滑动窗口算法题的解题仓库
 [992. K 个不同整数的子数组](https://leetcode.cn/problems/subarrays-with-k-different-integers/description/?envType=problem-list-v2&envId=sliding-window) : [L992_subarraysWithKDistinct](L992_subarraysWithKDistinct)
 
 [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips/description/?envType=problem-list-v2&envId=sliding-window) : [L995_minKBitFlips](L995_minKBitFlips)
+
+[1004. 最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/description/?envType=problem-list-v2&envId=sliding-window) : [L1004_maxConsecutive](L1004_maxConsecutive)
+
+[1016. 子串能表示从1到 N 的二进制](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n/description/?envType=problem-list-v2&envId=sliding-window) : [L1016_queryString](L1016_queryString)

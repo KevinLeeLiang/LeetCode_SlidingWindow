@@ -42,6 +42,7 @@
 #include "L978_maxTurbulenceSize/L978_maxTurbulenceSize.h"
 #include "L992_subarraysWithKDistinct/L992_subarraysWithKDistinct.h"
 #include "L995_minKBitFlips/L995_minKBitFlips.h"
+#include "L1004_longestOnes/L1004_longestOnes.h"
 
 using namespace std;
 class test_factory {
@@ -130,6 +131,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L995") {
             std::shared_ptr<L995_minKBitFlips> tmp= std::make_shared<L995_minKBitFlips>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1004") {
+            std::shared_ptr<L1004_longestOnes> tmp= std::make_shared<L1004_longestOnes>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
