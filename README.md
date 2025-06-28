@@ -65,3 +65,7 @@ LeetCode滑动窗口算法题的解题仓库
 [1004. 最大连续1的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii/description/?envType=problem-list-v2&envId=sliding-window) : [L1004_maxConsecutive](L1004_maxConsecutive)
 
 [1016. 子串能表示从1到 N 的二进制](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n/description/?envType=problem-list-v2&envId=sliding-window) : [L1016_queryString](L1016_queryString)
+
+[1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/description/?envType=problem-list-v2&envId=sliding-window) : [L1031_maxSumTwoNoOverlap](L1031_maxSumTwoNoOverlap)
+
+[1040. 移动石子直到连续II](https://leetcode.cn/problems/moving-stones-until-consecutive-ii/description/?envType=problem-list-v2&envId=sliding-window) : [L1040_numMovesStonesII](L1040_numMovesStonesII)

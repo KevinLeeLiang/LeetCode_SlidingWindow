@@ -43,6 +43,9 @@
 #include "L992_subarraysWithKDistinct/L992_subarraysWithKDistinct.h"
 #include "L995_minKBitFlips/L995_minKBitFlips.h"
 #include "L1004_longestOnes/L1004_longestOnes.h"
+#include "L1016_queryString/L1016_queryString.h"
+#include "L1031_maxSumTwoNoOverlap/L1031_maxSumTwoNoOverlap.h"
+#include "L1040_numMovesStonesII/L1040_numMovesStonesII.h"
 
 using namespace std;
 class test_factory {
@@ -134,6 +137,15 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L1004") {
             std::shared_ptr<L1004_longestOnes> tmp= std::make_shared<L1004_longestOnes>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1016") {
+            std::shared_ptr<L1016_queryString> tmp= std::make_shared<L1016_queryString>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1031") {
+            std::shared_ptr<L1031_maxSumTwoNoOverlap> tmp= std::make_shared<L1031_maxSumTwoNoOverlap>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1040") {
+            std::shared_ptr<L1040_numMovesStonesII> tmp= std::make_shared<L1040_numMovesStonesII>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
