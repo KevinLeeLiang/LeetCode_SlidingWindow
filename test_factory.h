@@ -46,6 +46,8 @@
 #include "L1016_queryString/L1016_queryString.h"
 #include "L1031_maxSumTwoNoOverlap/L1031_maxSumTwoNoOverlap.h"
 #include "L1040_numMovesStonesII/L1040_numMovesStonesII.h"
+#include "L1044_longestDupSubstring/L1044_longestDupSubstring.h"
+#include "L1052_maxSatisfied/L1052_maxSatisfied.h"
 
 using namespace std;
 class test_factory {
@@ -146,6 +148,12 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L1040") {
             std::shared_ptr<L1040_numMovesStonesII> tmp= std::make_shared<L1040_numMovesStonesII>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1044") {
+            std::shared_ptr<L1044_longestDupSubstring> tmp= std::make_shared<L1044_longestDupSubstring>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1052") {
+            std::shared_ptr<L1052_maxSatisfied> tmp= std::make_shared<L1052_maxSatisfied>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }

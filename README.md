@@ -69,3 +69,7 @@ LeetCode滑动窗口算法题的解题仓库
 [1031. 两个非重叠子数组的最大和](https://leetcode.cn/problems/maximum-sum-of-two-non-overlapping-subarrays/description/?envType=problem-list-v2&envId=sliding-window) : [L1031_maxSumTwoNoOverlap](L1031_maxSumTwoNoOverlap)
 
 [1040. 移动石子直到连续II](https://leetcode.cn/problems/moving-stones-until-consecutive-ii/description/?envType=problem-list-v2&envId=sliding-window) : [L1040_numMovesStonesII](L1040_numMovesStonesII)
+
+[1044. 最长重复子串](https://leetcode.cn/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window) : [L1044_longestDupSubstring](L1044_longest)
+
+[1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window) : [L1052_maxSatisfied](L1052_maxSatisfied)
