@@ -73,3 +73,5 @@ LeetCode滑动窗口算法题的解题仓库
 [1044. 最长重复子串](https://leetcode.cn/problems/longest-duplicate-substring/description/?envType=problem-list-v2&envId=sliding-window) : [L1044_longestDupSubstring](L1044_longest)
 
 [1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner/description/?envType=problem-list-v2&envId=sliding-window) : [L1052_maxSatisfied](L1052_maxSatisfied)
+
+[1156. 单字符重复子串的最大长度](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/description/?envType=problem-list-v2&envId=sliding-window) : [L1156_maxRepOpt1](L1156_maxRepOpt1)

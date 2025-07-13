@@ -48,6 +48,7 @@
 #include "L1040_numMovesStonesII/L1040_numMovesStonesII.h"
 #include "L1044_longestDupSubstring/L1044_longestDupSubstring.h"
 #include "L1052_maxSatisfied/L1052_maxSatisfied.h"
+#include "L1156_maxRepOpt1/L1156_maxRepOpt1.h"
 
 using namespace std;
 class test_factory {
@@ -154,6 +155,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L1052") {
             std::shared_ptr<L1052_maxSatisfied> tmp= std::make_shared<L1052_maxSatisfied>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1156") {
+            std::shared_ptr<L1156_maxRepOpt1> tmp= std::make_shared<L1156_maxRepOpt1>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
