@@ -49,6 +49,7 @@
 #include "L1044_longestDupSubstring/L1044_longestDupSubstring.h"
 #include "L1052_maxSatisfied/L1052_maxSatisfied.h"
 #include "L1156_maxRepOpt1/L1156_maxRepOpt1.h"
+#include "L1208_equalSubstring/L1208_equalSubstring.h"
 
 using namespace std;
 class test_factory {
@@ -158,6 +159,9 @@ private:
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         } else if (title == "L1156") {
             std::shared_ptr<L1156_maxRepOpt1> tmp= std::make_shared<L1156_maxRepOpt1>();
+            solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
+        } else if (title == "L1208") {
+            std::shared_ptr<L1208_equalSubstring> tmp= std::make_shared<L1208_equalSubstring>();
             solution_ = std::dynamic_pointer_cast<LeetcodeSlidingWindow>(tmp);
         }
     }
