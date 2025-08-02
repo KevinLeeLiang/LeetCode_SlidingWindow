@@ -77,3 +77,5 @@ LeetCode滑动窗口算法题的解题仓库
 [1156. 单字符重复子串的最大长度](https://leetcode.cn/problems/swap-for-longest-repeated-character-substring/description/?envType=problem-list-v2&envId=sliding-window) : [L1156_maxRepOpt1](L1156_maxRepOpt1)
 
 [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget/description/?envType=problem-list-v2&envId=sliding-window) : [L1208_equalSubstring](L1208_equalSubstring)
+
+[1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string/description/?envType=problem-list-v2&envId=sliding-window) : [L1234_balancedString](L1234_balancedString)
